@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Application"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:background="#0CA"
+        android:gravity="center"
+        >
+    </TextView>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:background="@color/green"
+        android:padding="5dp"
+        >
+        <TextView
+            android:id="@+id/titleOne"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="STT."
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:paddingRight="20dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/titleTwo"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:paddingRight="70dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/titleThree"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Price"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:paddingRight="30dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/titleFour"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Evaluate"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:paddingRight="20dp"
+            ></TextView>
+    </TableRow>
+
+
+
+</TableLayout>

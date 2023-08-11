@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.conandroid.AppBar">
+
+    <item
+        android:id="@+id/than"
+        android:icon="@drawable/menu"
+        android:title="My Profile"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/one"
+        android:orderInCategory="100"
+        android:title="Quản lý thanh toán"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/two"
+        android:orderInCategory="100"
+        android:title="Chia sẽ thông tin cá nhân"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/three"
+        android:orderInCategory="100"
+        android:title="Điều khoản và Chính sách"
+        app:showAsAction="never" />
+
+</menu>

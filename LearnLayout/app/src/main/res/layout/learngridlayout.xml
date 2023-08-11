@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="4"
+    android:padding="2dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:background="#0cddff"
+        android:text="Demo GridLayout"
+        android:textSize="36dp"
+        android:padding="@dimen/cardview_default_radius"></TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Tô Hoài"
+        android:textSize="32dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="#E9FF0E">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:background="#0aa"
+        android:text="A Linh"
+        android:textSize="32dp"
+        android:layout_rowSpan="1"></TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Nam Cao"
+        android:textSize="32dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:background="#ACFF">
+    </TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Thế Lữ"
+        android:textSize="32dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:background="#A55000">
+    </TextView>
+
+
+
+</GridLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <!--    Margin-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_25">25dp</dimen>
+
+    <!--    Font size-->
+    <dimen name="size5">5dp</dimen>
+    <dimen name="size10">10dp</dimen>
+    <dimen name="size15">15dp</dimen>
+
+    <dimen name="size20">20dp</dimen>
+    <dimen name="size23">23dp</dimen>
+    <dimen name="size24">24dp</dimen>
+    <dimen name="size28">28dp</dimen>
+    <dimen name="size32">32dp</dimen>
+    <dimen name="size37">37dp</dimen>
+    <dimen name="size55">55dp</dimen>
+    <dimen name="size75">75dp</dimen>
+    <dimen name="size100">100dp</dimen>
+    <dimen name="size150">150dp</dimen>
+    <dimen name="size200">200dp</dimen>
+    <dimen name="size250">250dp</dimen>
+    <dimen name="size300">300dp</dimen>
+
+
+</resources>

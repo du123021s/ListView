@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculation</string>
+    <string name="number_a">Number a</string>
+    <string name="number_b">Number b</string>
+    <string name="total">Total</string>
+    <string name="answer">Answer: </string>
+    <string name="delete">Delete</string>
+</resources>
